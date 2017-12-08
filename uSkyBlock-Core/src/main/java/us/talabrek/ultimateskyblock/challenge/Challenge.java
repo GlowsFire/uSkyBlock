@@ -240,7 +240,7 @@ public class Challenge {
             lores.add(tr("\u00a76Currency Reward: \u00a7a{0}", reward.getCurrencyReward()));
         }
         lores.add(tr("\u00a76Exp Reward: \u00a7a{0}", reward.getXpReward()));
-        lores.add(tr("\u00a7dTotal times completed: \u00a7f{0}", completion.getTimesCompleted()));
+#        lores.add(tr("\u00a7dTotal times completed: \u00a7f{0}", completion.getTimesCompleted()));
 
         meta.setLore(lores);
         currentChallengeItem.setItemMeta(meta);
